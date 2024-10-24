@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatorio Profissional</title>
+</head>
+<body>
+    #conteudo
+</body>
+<style>
+  body {
+    background-color:#FFFFFF;
+    margin: 0;
+}
+
+.bar_top {
+  background-color:#045efa;
+  height: 12px;
+  width: 100%; 
+  margin: 0; 
+  padding: 0;
+}
+
+.img_style {
+  margin: 18px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  margin: 12px 0px;
+
+}
+
+.hr_style {
+  border: 0.5px solid black; 
+  background-color: black;
+}
+
+.content {
+    margin: auto;
+    box-sizing: border-box;
+    width: 210mm;
+    max-width: 210mm;
+    min-width: 210mm;
+    min-height: 100vh;
+    max-height: 297mm;
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+.table_resumo {
+    width: 100%;
+}
+
+.table_coluna > td:first-child {
+    width: 10%;
+    text-align: start;
+}
+
+.table_coluna > td:nth-child(2) {
+    width: 70%;
+    text-align: start;
+}
+
+.table_coluna > td:nth-child(3) {
+    width: 8%;
+    text-align: start;
+}
+
+.table_coluna > td:nth-child(4) {
+    width: 12%;
+    text-align: start;
+}
+
+.table_pacientes {
+  width: 100%;
+}
+
+.table_pacientes > thead {
+    background-color: #045efa;
+    color: white;
+}
+
+.table_pacientes > tbody > th > td:nth-child(2) {
+    text-align: center;
+    width: 60%;
+    color: red;
+}
+
+
+
+@media print {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .content {
+         margin: auto;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        page-break-after: always;
+    }
+}
+</style>
+</html>

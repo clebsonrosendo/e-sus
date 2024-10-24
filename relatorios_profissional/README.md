@@ -1,0 +1,3 @@
+# Geração de Relatórios em Python
+
+O script .py gera gelatórios do Sistema E-sus. No relatório consta o profissional, CNS, paciente e procedimento realizado no dia. Uma versão mais completa será adicionada...
