@@ -167,7 +167,7 @@ def save_pdf():
     dt = datetime.datetime.fromtimestamp(ts).strftime('%Y%m%d%H%M%S')
 
     report = generate_report()
-    pdfkit.from_string(report, f'reports\Relatorio de Profissionais_{dt}.pdf', options=options)
+    pdfkit.from_string(report, f'.\reports\Relatorio de Profissionais_{dt}.pdf', options=options)
 
     return
 
