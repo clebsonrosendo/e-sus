@@ -41,6 +41,7 @@ Acessar o container e o bash
 ```sudo docker exec -it esus_teste_webserver /bin/bash ```
 
 Acesse a pasta downloads
+
 ```cd /home/downloads/ ```
 
 Use o **wget** para fazer download
