@@ -37,10 +37,14 @@ Como ele explica, é preciso 'criar um volume bindando o cgroup da máquina host
 Agora com os containers criados é preciso baixar e instalar o E-SUS. No site oficial (https://sisaps.saude.gov.br/esus/), a última versão é a 5.2.46. Para acessar o container segue os comandos:
 
 Acessar o container e o bash
+
 ```sudo docker exec -it esus_teste_webserver /bin/bash ```
+
 Acesse a pasta downloads
 ```cd /home/downloads/ ```
+
 Use o **wget** para fazer download
+
 ```wget https://arquivos.esusab.ufsc.br/PEC/qQYkhiuXlligrwmg/5.2.46/eSUS-AB-PEC-5.2.46-Linux64.jar --no-check-certificate```
 
 
